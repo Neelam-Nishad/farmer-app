@@ -15,7 +15,7 @@ const BuyCard = (props) => {
                         <img src={props.source} className='cropImage mt-0'/>
                         </div>
                         <Button variant="success btn-get-started">Contact</Button>
-                        <Button variant="success btn-get-started" className='ml-5'>+</Button>
+                        <Button variant="success btn-get-started" className='ml-5'>Add to Cart</Button>
                     </Card.Body>
                 </Card>
             </div>

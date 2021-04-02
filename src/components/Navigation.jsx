@@ -13,7 +13,7 @@ const Navigation = () => {
                         <Navbar.Collapse id="basic-navbar-nav">
                             <Nav className="ml-auto">
                                 <NavLink exact to='./services'><Nav.Link className='links' href="#home">Service</Nav.Link></NavLink>
-                                <NavLink exact to='./login'><Nav.Link className='links ml-4' href="#home">login</Nav.Link></NavLink>
+                                <NavLink exact to='./login'><Nav.Link className='links ml-4' href="#home">SignUp</Nav.Link></NavLink>
                                 <NavLink exact to='./contact'><Nav.Link className='links ml-4' href="#link">Contact</Nav.Link></NavLink>
                                 <NavLink exact to='./cart'><Nav.Link className='links ml-4' href="#link">🛒</Nav.Link></NavLink>
                             </Nav>

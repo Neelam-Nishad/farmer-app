@@ -8,6 +8,7 @@ import LoginPage from './components/LoginPage';
 import Home from './components/Home';
 import Sell from './components/Sell';
 import Buy from './components/Buy';
+import SignUp from './components/SignUp';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route exact path='/contact' component={Contact} />
           <Route exact path='/sell' component={Sell}/>
           <Route exact path='/buy' component={Buy}/>
+          <Route exact path='/signup' component={SignUp}/>
         </Switch>
       
     </>

@@ -41,8 +41,8 @@ const Sell = () => {
                 <Form.Group controlId="formBasicCheckbox">
                     <Form.Check type="checkbox" label="I agree with t&c" />
                 </Form.Group>
-                <Button variant="primary" type="submit">
-                    Submit
+                <Button variant="success btn-get-started" type="submit">
+                    Post
                 </Button>
             </Form>
         </div>

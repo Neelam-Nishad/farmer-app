@@ -1,5 +1,5 @@
 import { Form, Button, Col, InputGroup, FormControl } from 'react-bootstrap';
-
+import {NavLink} from 'react-router-dom'
 const LoginPage = () => {
     return (
         <div className='col-10 mx-auto mt-5'>
@@ -41,9 +41,9 @@ const LoginPage = () => {
                 <Button variant="success" type="submit" className='btn-get-started'>
                     Sign Up
                 </Button>
-                <Button variant="success" type="submit" className='btn-get-started ml-3'>
+               <NavLink to='./signup'> <Button variant="success" type="submit" className='btn-get-started ml-3'>
                     Login
-                </Button>
+                </Button></NavLink>
             </Form>
             
         </div>
