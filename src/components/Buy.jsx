@@ -1,0 +1,21 @@
+import { useState } from "react";
+import BuyCard from "./BuyCard";
+import {Form} from 'react-bootstrap';
+
+
+const Buy = () => {
+    const [cards, setCards] = useState([]);
+    return(
+        <>
+            <div className='col-10 mx-auto mt-4'>
+            <BuyCard star='Seller: ⭐⭐⭐' title='Wheat 500kg' text='detail about the grain will be given here for eg. what is the type and other qualities mentioned by the seller Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum' source='https://5.imimg.com/data5/ST/QW/MY-38700875/fresh-wheat-crop-500x500.jpg'/>
+            <BuyCard star='Seller: ⭐⭐⭐⭐' title='Rice 500kg' text='detail about the grain will be given here for eg. what is the type and other qualities mentioned by the seller Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum' source='https://i.pinimg.com/474x/ab/e6/16/abe6164063455c9068986d0362c06403.jpg'/>
+            <BuyCard star='Seller: ⭐⭐⭐⭐⭐' title='Wheat 500kg' text='detail about the grain will be given here for eg. what is the type and other qualities mentioned by the seller Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum' source='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4CgG828tkywMaKx0qtPOOKqNpk2mUwkNi8w&usqp=CAU'/>
+            <BuyCard star='Seller: ⭐⭐⭐' title='Rice 500kg' text='detail about the grain will be given here for eg. what is the type and other qualities mentioned by the seller Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum'/>
+            <BuyCard star='Seller: ⭐⭐⭐⭐⭐' title='Wheat 500kg' text='detail about the grain will be given here for eg. what is the type and other qualities mentioned by the seller Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum'/>
+            </div>
+        </>
+    )
+}
+
+export default Buy;
