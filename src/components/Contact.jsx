@@ -18,7 +18,7 @@ function Contact() {
         </div>
         <div className='d-flex contact-blocks'>
             <img className='contactThumbnail' src='https://e7.pngegg.com/pngimages/752/454/png-clipart-mobile-phones-telephone-computer-icons-contact-icon-angle-telephone-call-thumbnail.png'/>
-            <h5 className='pl-5 pt-2 text-center text-success'>+918684021908</h5>
+            <h5 className='pl-5 pt-2 text-center text-success'>+918684021907</h5>
         </div>
                         </div>
                         <div className='col-lg-6 order-1 order-lg-2'>
