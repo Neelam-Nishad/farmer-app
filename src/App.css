@@ -7,3 +7,10 @@ body{
   border-radius: 50%;
   margin-top: 0px;
 }
+.contactThumbnail{
+  height: 50px;
+  width: 50px;
+}
+.contact-blocks{
+  margin-top: 30px;
+}
