@@ -6,8 +6,8 @@ import web from './images/AfricanFarmer.svg'
 
 function Home() {
     return (
-        <section id='header' className='left-section d-flex align-items-center'>
-            <div className='container-fluid'>
+        //  <section id='header' className='left-section d-flex align-items-center'>
+            <div className='container-fluid outer-box'>
                 <div className='row'>
                     <div className='col-10 mx-auto'>
                     <div className='row'>
@@ -29,7 +29,7 @@ function Home() {
                     </div>
                 </div>
             </div>
-        </section>
+        // </section>
     )
 }
 

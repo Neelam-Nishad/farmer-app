@@ -7,7 +7,7 @@ function Contact() {
                 <div className='row'>
                     <div className='col-10 mx-auto'>
                     <div className='row'>
-                        <div className='col-6 pt-5 pt-lg-0 order-2 order-lg-1'>
+                        <div className='col-6 pt-5 pt-lg-0 order-1 order-lg-1'>
                             <div className='d-flex contact-blocks'>
             <img className='contactThumbnail' src='https://upload.wikimedia.org/wikipedia/commons/4/4e/Gmail_Icon.png'/>
             <h5 className='pl-5 pt-2 text-center text-success'>nishadneelam997@gmail.com</h5>
@@ -21,7 +21,7 @@ function Contact() {
             <h5 className='pl-5 pt-2 text-center text-success'>+918684021907</h5>
         </div>
                         </div>
-                        <div className='col-lg-6 order-1 order-lg-2'>
+                        <div className='col-lg-6 order-2 order-lg-2'>
                             <img src={web} className='img-fluid animated' alt='image'/>
                         </div>
                         </div>
